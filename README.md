@@ -6,11 +6,17 @@
 
 主要特性：
 
+- [原项目](https://github.com/mythsman/hexo-douban)固有特性；
 - 重构模板页面，支持移动适配；
 - 补全列表影评内容，支持短评和长影评；
-- 样式inline化，允许直接嵌入同源其他页面；
 - 支持生成指定长度的列表（对于观影数量较多的用户）；
-- [原项目](https://github.com/mythsman/hexo-douban)固有特性；
+- 样式inline化，允许直接嵌入同源其他页面；
+  ``` html
+  <div id="dbcontent"></div>
+  <script>$('#dbcontent').load('./movies/index.html .hexo-douban-item:nth-child(1)');</script>
+  ```
+
+
 
  
 ## 第一步：安装
