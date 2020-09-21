@@ -39,6 +39,8 @@ douban:
     title: '生成页面的标题'
     quote: '生成页面的内容的导语'
     length: 2
+    valine_id: WbLE88qfAcz4hSI5
+    valine_key: ycqjmtEfUxuxD
   timeout: 10000 
 ```
 
@@ -50,6 +52,10 @@ douban:
 - **quote**: 写在页面开头的一段话,支持html语法。
 - **length**: 默认值为2，非页数，可以自由尝试（建议取值:2-4）。
 - **timeout**: 爬取数据的超时时间，默认是 10000ms ,如果在使用时发现报了超时的错(ETIMEOUT)可以把这个数据设置的大一点。
+
+对于 `valine_id` 和 `valine_key`，主要针对的是**Volantis**主题（以及其他默认渲染评论区域的主题），如果您在测试时页面没有评论区域，则可以忽略这两项，如果出现以下显示则需要填写此两项。（这两项是什么？请移步[Valine官方介绍](https://valine.js.org/quickstart.html#%E8%8E%B7%E5%8F%96APP-ID-%E5%92%8C-APP-Key)）
+
+![](https://cdn.jsdelivr.net/gh/TianZonglin/tuchuang/img/20200914172530.png)
 
 
 ## 使用
