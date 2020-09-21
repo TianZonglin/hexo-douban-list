@@ -16,7 +16,9 @@
 ## 第一步：安装
 
 ``` bash
-$ npm install hexo-douban-list --save
+# 如果您使用过原插件请先卸载之
+$ npm uninstall --save hexo-douban
+$ npm install --save hexo-douban-list
 ```
 
 ## 第二步：配置
@@ -32,6 +34,8 @@ douban:
     quote: '生成页面的内容的导语'
   timeout: 10000 
 ```
+
+**注意：以上内容中务必确定 USER ID 的正确性！**
 
 - **user**: 你的豆瓣ID.打开豆瓣，登入账户，然后在右上角点击 "个人主页" ，这时候地址栏的URL大概是这样："https://www.douban.com/people/xxxxxx/" ，其中的"xxxxxx"就是你的个人ID了。
 - **builtin**: 是否将生成页面的功能嵌入`hexo s`和`hexo g`中，默认嵌入（TRUE）即npm安装后无需任何操作按原命令部署博客即可生效。
@@ -73,8 +77,12 @@ Options:
 - 去掉了影评页跳转的菜单按钮
 - 去掉了以上项目涉及的配置开关
 
+
+
+## 异常
+
+如果构建页面为空或404，且日志输出为 `INFO  0 movies have been loaded in xx ms`，这时怀疑您的IP由于多次请求豆瓣的页面而被豆瓣封禁了，一般第二天会解禁，使用代理或更改IP即可解决。
  
 ## 示例
 
 https://www.cz5h.com/movies
-
