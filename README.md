@@ -55,7 +55,7 @@ douban:
 
 对于 `valine_id` 和 `valine_key`，主要针对的是**Volantis**主题（以及其他默认渲染评论区域的主题），如果您在测试时页面没有评论区域，则可以忽略这两项，如果出现以下显示则需要填写此两项。（这两项是什么？请移步[Valine官方介绍](https://valine.js.org/quickstart.html#%E8%8E%B7%E5%8F%96APP-ID-%E5%92%8C-APP-Key)）
 
-![](https://cdn.jsdelivr.net/gh/TianZonglin/tuchuang/img/20200914172530.png)
+![](https://cdn.jsdelivr.net/gh/TianZonglin/tuchuang/img/20200922010453.png)
 
 
 ## 使用
