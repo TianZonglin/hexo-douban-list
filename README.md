@@ -55,17 +55,6 @@ douban:
 
 **注意**，通常大家都喜欢用`hexo d`来作为`hexo deploy`命令的简化，但是当安装了`hexo douban`之后，就不能用`hexo d`了，因为`hexo douban`跟`hexo deploy`的前缀都是`hexo d`。
 
-```
-$ hexo douban -h
-Usage: hexo douban
-
-Description:
-Generate pages from douban
-
-Options:
-  -m, --movies  Generate douban movies only
-```
-
 ## 升级
 
 使用 `npm install hexo-douban --update --save` 直接更新。
