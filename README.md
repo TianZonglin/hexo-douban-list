@@ -16,7 +16,7 @@
   <script>$('#dbcontent').load('./movies/index.html .hexo-douban-item:nth-child(1)');</script>
   ```
 
-
+**注意：本插件构建的页面完全不保证兼容IE等上古浏览器，推广使用现代浏览器，人人有责。**
 
  
 ## 第一步：安装
