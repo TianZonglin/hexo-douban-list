@@ -65,7 +65,7 @@ douban:
 
 ## 升级
 
-使用 `npm install hexo-douban --update --save` 直接更新。
+使用 `npm install hexo-douban-list --update --save` 直接更新。
 
 ## 测试
 
