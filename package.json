@@ -1,6 +1,8 @@
 {
   "_from": "hexo-douban-list",
+  "_id": "hexo-douban-list@1.1.9",
   "_inBundle": false,
+  "_integrity": "sha512-yU3z2w4kOV/33o9gywX2FLUyYcoTuDvRwzvD33rOQSKSBrQVDIKmqqXyq0OJZ1b/g9czeP2RF39sAoM/8PSAYQ==",
   "_location": "/hexo-douban-list",
   "_phantomChildren": {
     "ansi-regex": "2.1.1",
@@ -59,7 +61,10 @@
     "#USER",
     "/"
   ],
-
+  "_resolved": "https://registry.npmjs.org/hexo-douban-list/-/hexo-douban-list-1.1.9.tgz",
+  "_shasum": "05fe4ecc1b7d27bff2c9393a4dd7d9756f5dadb0",
+  "_spec": "hexo-douban-list",
+  "_where": "D:\\123保险柜\\Volantis",
   "bugs": {
     "url": "https://github.com/TianZonglin/hexo-douban-list/issues"
   },
@@ -101,5 +106,5 @@
     "type": "git",
     "url": "git+https://github.com/TianZonglin/hexo-douban-list.git"
   },
-  "version": "1.1.9"
+  "version": "1.2.0"
 }
