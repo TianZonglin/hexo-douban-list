@@ -86,7 +86,6 @@ hexo.extend.console.register('douban', 'Generate pages from douban', options, fu
     });
     names.forEach(name => {
       var id = name + "/index.html";
-      id = id.replace(/movies/,"film");
       self.route.get(id) && self.route.get(id)._data().then(function (contents) {
         fs.writeFile(path.join(publicDir, id), contents);
         log.info("Generated: %s", id);

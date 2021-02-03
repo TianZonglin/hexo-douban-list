@@ -33,15 +33,16 @@ $ npm install --save hexo-douban-list
 
 ``` yaml
 douban:
-  user: ID（数字或字幕|无需引号）
+  user: 205XXX876
   builtin: true
   movie:
-    title: '生成页面的标题'
-    quote: '生成页面的内容的导语'
+    title: '已看电影（豆瓣短评+长影评）'
+    quote: <p>光影之中品百味人生。 <a target="_blank" href="https://github.com/TianZonglin/hexo-douban-list">// 本页使用 hexo-douban-list 插件构建</a></p>
     length: 2
-    valine_id: WbLE88qfAcz4hSI5
-    valine_key: ycqjmtEfUxuxD
-  timeout: 10000 
+    textlen: 120
+    valine_id: WbLE8XXXoHsz # 当渲染页的valine加载不出来时使用（默认置空）
+    valine_key: ycqjXXXRkrdO
+  timeout: 100000
 ```
 
 **注意：以上内容中务必确定 USER ID 的正确性！**
