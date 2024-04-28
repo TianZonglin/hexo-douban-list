@@ -89,4 +89,4 @@ douban:
  
 ## 示例
 
-https://www.cz5h.com/movies
+https://www.cxmoe.com/movies
